@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propuesta Página Web - Diseño</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logounad.png" 
+                     alt="Logo UNAD" style="height: 60px; width: auto; margin-right: 15px;" class="rounded shadow">
+                <span>Propuesta Página Web</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="diseno.html">Diseño</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Analisis de requerimientos para desarrollo web</h1>
+            <p class="page-subtitle">
+                Tecnologias y herramientas para la creacion de pagina web para la empresa de abogados Te apoyamos SAS
+            </p>
+        </div>
+    </section>
+
+    <!-- Diseño de requerimientos -->
+    <section class="design-section">
+        <div class="container">
+            <h2 class="section-title">Requerimientos del Proyecto</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="design-card">
+                        <i class="fas fa-tasks icon"></i>
+                        <h3>
+                            Requerimientos Funcionales
+                        </h3>
+                        <p>
+                            Son las funciones y características específicas que el sistema debe tener para satisfacer las necesidades de la firma.
+                        </p>
+                        <ul class="feature-list">
+                            <li>
+                                <i class="fas fa-check"></i> Módulo de Información que detalle la historia, servicios ofertados, noticias de interés y los perfiles de los profesionales adscritos a la firma. 
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i>Módulo de Registro para que los profesionales registren su hoja de vida a través de un formulario para su posterior evaluación y selección.
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i> Módulo de Gestión de procesos legales que facilite el registro de los casos activos, su progreso, y acceder a ellos con una interfaz sencilla y amigable.</li>
+                            <li>
+                                <i class="fas fa-check"></i> Formulario de Contacto como un canal de comunicación directo entre los visitantes y la firma.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="design-card">
+                        <i class="fas fa-cogs icon"></i>
+                        <h3>
+                            Requerimientos No Funcionales
+                        </h3>
+                        <p>
+                            Definen cómo debería funcionar el sistema, asegurando la calidad y la experiencia del usuario.
+                        </p>
+                        <ul class="feature-list">
+                            <li>
+                                <i class="fas fa-check"></i> Usabilidad: La interfaz debe ser intuitiva, accesible y fácil de navegar, para que los usuarios encuentren la información de manera sencilla y eficiente.
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i> Seguridad: El sistema debe proteger los datos de los usuarios con certificados SSL/TLS, e implementar un sistema de autenticación fuerte. 
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i> Diseño Responsive: El sitio debe ser accesible y funcional en cualquier dispositivo, con recursos optimizados y un servicio de hosting confiable.
+                            </li>
+                            <li>
+                                <i class="fas fa-check"></i> La implementación del sitio debe ser modular, pra que se puedan agregar funcionalidades diferentes sin afectar el funcionamiento del sitio.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conceptos clave -->
+    <section class="design-section" style="background-color: var(--light-gray);">
+        <div class="container">
+            <h2 class="section-title">Tecnologías y Fundamentos de Diseño</h2>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4 class="mb-4">Análisis de Conceptos Clave</h4>
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <div class="design-card">
+                                <h5>Hosting </h5>
+                                <p>
+                                    Permite que un sitio web esté en internet. Cuando se compra un hosting se alquila espacio en un servidor que almacena los archivos y datos del sitio, asegurando su funcionamiento.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="design-card">
+                                <h5>Dominio </h5>
+                                <p>
+                                    Es el nombre único con el que una página web se identifica en internet. No solo contiene la dirección del servidor donde está alojado, sino que tambien información de la entidad que lo posee.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="design-card">
+                                <h5>Diseño Responsive</h5>
+                                <p>
+                                    Es un enfoque de diseño de paginas web que se adapta para proporcionar una experiencia de usuario optima de lectura y navegación en cualquier dispositivo, manteniendo la accesibilidad para cualquier tipo de usuario. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-4">
+                    <h4 class="mb-4">Frameworks y Herramientas</h4>
+                    <p>
+                        Un framework es un conjunto de herramientas, librerías y estándares que ayudan a los desarrolladores a construir aplicaciones ágilmente, estandarizando procesos y por tanto mejorando la escalabilidad de los proyectos.
+                    </p>
+                    <p>
+                        Para desarrollar la interfaz de usuario, se ha seleccionado el framework Bootstrap. Esta herramienta, basada en HTML, CSS y JavaScript, es la opción ideal por su versatilidad y el sistema de cuadrícula que hace de la implementación una experiencia fluida y simple. Además, ofrece una amplia variedad de componentes pre-diseñados que se puedem modificar, asegurando un trabajo más fluido y ahorrar tiempo.
+                    </p>
+                    <p>
+                        Otros frameworks modernos y poderosos recomendados son:
+                    </p>
+                    <!--Otros frameworks a consultar-->
+                    <ol class="list-group">
+                        <li class="list-group-item d-flex align-items-start">
+                          <div class="me-3">
+                            <i class="fab fa-react" style="font-size: 2.5rem; color: #6f42c1;"></i>
+                          </div>
+                          <div class="flex-grow-1">
+                            <div class="fw-bold" style="font-size: 1.4rem;">React</div>
+                            <p style="font-size: 1.1rem; line-height: 1.6;">Framework de JavaScript desarrollado por Facebook para crear interfaces de usuario interactivas y componentes reutilizables.</p>
+                          </div>
+                        </li>
+                        <li class="list-group-item d-flex align-items-start">
+                          <div class="me-3">
+                            <i class="fab fa-angular" style="font-size: 2.5rem; color: #6f42c1;"></i>
+                          </div>
+                          <div class="flex-grow-1">
+                            <div class="fw-bold" style="font-size: 1.4rem;">Angular</div>
+                            <p style="font-size: 1.1rem; line-height: 1.6;">Plataforma completa de Google para construir aplicaciones web escalables con TypeScript y herramientas integradas.</p>
+                          </div>
+                        </li>
+                        <li class="list-group-item d-flex align-items-start">
+                            <div class="me-3">
+                              <i class="fab fa-vuejs" style="font-size: 2.5rem; color: #6f42c1;"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                              <div class="fw-bold" style="font-size: 1.4rem;">Vue.js</div>
+                              <p style="font-size: 1.1rem; line-height: 1.6;">Framework progresivo de JavaScript que se puede adoptar incrementalmente para construir interfaces de usuario.</p>
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex align-items-start">
+                            <div class="me-3">
+                              <i class="fab fa-node-js" style="font-size: 2.5rem; color: #6f42c1;"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                              <div class="fw-bold" style="font-size: 1.4rem;">Node.js</div>
+                              <p style="font-size: 1.1rem; line-height: 1.6;">Entorno de ejecución de JavaScript en el servidor que permite crear aplicaciones web escalables y de alto rendimiento.</p>
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex align-items-start">
+                            <div class="me-3">
+                              <i class="fab fa-python" style="font-size: 2.5rem; color: #6f42c1;"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                              <div class="fw-bold" style="font-size: 1.4rem;">Django</div>
+                              <p style="font-size: 1.1rem; line-height: 1.6;">Framework web de Python que fomenta el desarrollo rápido y el diseño limpio y pragmático.</p>
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex align-items-start">
+                            <div class="me-3">
+                              <i class="fas fa-palette" style="font-size: 2.5rem; color: #6f42c1;"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                              <div class="fw-bold" style="font-size: 1.4rem;">Tailwind CSS</div>
+                              <p style="font-size: 1.1rem; line-height: 1.6;">Framework CSS utility-first que permite crear diseños personalizados sin salir del HTML.</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Propuesta/mockup -->
+    <section class="design-section" style="background-color: var(--light-gray);">
+        <div class="container">
+            <h2 class="section-title">Propuesta de Diseño - Wireframe</h2>
+            <p class="text-center mb-4">Wireframe de la página principal para la firma "Te Apoyamos S.A.S"</p>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div style="background: #f8f9fa; border: 2px solid #dee2e6; border-radius: 10px; padding: 2rem; min-height: 400px;">
+                        <img src="Wireframe.png" alt="Propuesta de diseño - Wireframe" class="img-fluid" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contacto -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 style="color: var(--primary-color); margin-bottom: 2rem;">
+                        ¿Estan de acuerdo con la propuesta?
+                    </h2>
+                    <p class="lead mb-4">
+                        ¡Estoy lista para trabajar, porque no tengo un peso!😅
+                    </p>
+                    <a href="contacto.html" class="btn btn-primary-custom btn-lg me-3">
+                        <i class="fas fa-phone me-2"></i>
+                        Consulta Gratuita
+                    </a>
+                    <a href="index.html" class="btn btn-outline-primary btn-lg">
+                        <i class="fas fa-home me-2"></i>
+                        Volver a Inicio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h5>Rosa Elena Panta</h5>
+                    <p>Framework para el desarrollo Web</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="footer-links">
+                        <a href="#" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" target="_blank" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" target="_blank" title="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                    <div class="mt-3">
+                        <i class="fas fa-phone me-2"></i> +57 (310) 123-4567
+                        <br>
+                        <i class="fas fa-envelope me-2"></i> mail@mail.com
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>Derechos Rosa Elena Panta Correa</p>
+                <p>2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
